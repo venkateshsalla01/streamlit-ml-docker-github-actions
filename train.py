@@ -7,7 +7,6 @@ housing = fetch_california_housing(as_frame=True)
 
 X= housing.data
 y = housing.target
-
 model = RandomForestRegressor()
 
 model.fit(X,y)
